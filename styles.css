@@ -3,8 +3,8 @@
     margin: 0;
 }
 #header{
-    border: 1px solid black;
-    background-color: gray;
+    border: 1px solid #000000;
+    background-color: rgb(252, 183, 92);
     height: 70px;
     display: flex;
     flex-direction: row;
@@ -33,6 +33,7 @@
     display: flex;
     flex-direction: row;
 }
+
 #header #studdetail #menu #menulist li{
     margin: 5px;
     padding: 5px;
@@ -41,6 +42,11 @@
 #header #studdetail #menu #menulist li {
     text-decoration: none;
 }
+#menulist li:hover{
+    transform: scale(1.3);
+    /* transition: transform 2s; */
+}
+
 
 
 #main{
@@ -52,11 +58,68 @@
 
 }
 #main div{
-    height: 20%;
-    border: 1px solid black;
-    margin: 5px;
+    height: 600px;
+    /* border: 1px solid black; */
+    /* margin: 5px; */
+    /* padding: 5px; */
+    background-color: rgb(128, 244, 248);
+    
+}
+#about{
+    background-image: url(https://media.istockphoto.com/id/1132089008/vector/vector-of-two-human-heads-made-of-gears-with-light-bulb-shape-inside.jpg?s=612x612&w=0&k=20&c=0KMU1svkqxR_C-thzRQPTa9Jfdz_X9C9xdUnj4nzYMo=);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  text-align: center;
+  font-size: larger;
+}
+#education{
+    background-image: url(https://images.unsplash.com/photo-1497633762265-9d179a990aa6?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZWR1Y2F0aW9ufGVufDB8fDB8fHww);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+  text-align: center;
+  font-size: larger;
+}
+#education #h2{
+   
+    position: relative;
+    top:  50px;
+    left: 200px;
+    font-size: 30px;
+}
+#education #p1{
+  
+    position: relative;
+    top: 82px;
+    left: 200px;
+    font-size: 20px;
+}
+#Skill{
+    background-image: url(https://media.istockphoto.com/id/1400058229/photo/progress-bar-with-the-words-new-skill-loading-education-concept-having-a-goal-online-learning.jpg?s=612x612&w=0&k=20&c=WdhvoulWCkaY0s5OySuJ5orUDEnT52LsPzU1nu6GVms=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: white;
+  
+  
+  font-size: larger;
+}
+
+
+
+#content{
+    text-align: center;
+    
+
+    
+}
+#content img{
     padding: 5px;
-    background-color: cadetblue;
+    
+    height: 20px;
+    border-radius: 50%;
+    position: relative;
+    top: 9px;
 }
 #footer{
     border: 1px solid black;
